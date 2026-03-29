@@ -10,7 +10,7 @@
 
 A modern, interactive, and visually stunning personal portfolio website built with React, Three.js, and Framer Motion featuring neon-dark aesthetics, 3D visuals, and GitHub API integration.
 
-[🌐 Live Demo](#) · [📂 GitHub](https://github.com/Nara-BIT) · [🐛 Report Bug](https://github.com/Nara-BIT/nara-portfolio/issues)
+[🌐 Live Demo](#) · [📂 GitHub](https://github.com/Nara-BIT) · [🐛 Report Bug](https://github.com/Nara-BIT/portfolio/issues)
 
 </div>
 
@@ -31,15 +31,9 @@ A modern, interactive, and visually stunning personal portfolio website built wi
 - ⚡ **Lightning Fast** — Built with Vite for instant HMR and optimized builds
 - 🎆 **Loading Screen** — Animated orbital loader on initial visit
 
----
-
-## 🏗️ Project Structure
 nara-portfolio/
-
 │
-
 ├── public/
-
 │ └── vite.svg
 │
 ├── src/
@@ -72,9 +66,6 @@ nara-portfolio/
 ├── postcss.config.js # PostCSS configuration
 └── README.md # This file
 
-text
-
-
 ---
 
 ## 🛠️ Tech Stack
@@ -103,3 +94,20 @@ Make sure you have the following installed on your machine:
 - [Git](https://git-scm.com/)
 
 ---
+
+### Option A — Clone and Run
+
+```bash
+# Clone the repository
+git clone https://github.com/Nara-BIT/portfolio.git
+cd portfolio
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+---
+
+## 🏗️ Project Structure
