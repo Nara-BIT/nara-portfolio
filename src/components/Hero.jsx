@@ -23,7 +23,7 @@ export default function Hero() {
       className="relative min-h-screen flex items-center px-6 pt-20 overflow-hidden"
     >
       <div className="max-w-7xl mx-auto w-full flex flex-col lg:flex-row items-center gap-8 lg:gap-4">
-        {/* Text Content */}
+        {/* Left Side: Text Content */}
         <motion.div
           className="flex-1 z-10"
           variants={container}
@@ -34,7 +34,7 @@ export default function Hero() {
             variants={child}
             className="font-mono text-accent text-sm md:text-base mb-4"
           >
-            Hi, my name is
+            Welcome to my portfolio, I am
           </motion.p>
 
           <motion.h1
@@ -52,9 +52,9 @@ export default function Hero() {
               sequence={[
                 "Aspiring Software Engineer.",
                 2000,
-                "MERN Stack Developer.",
+                "Full Stack Developer.",
                 2000,
-                "Data Engineering Enthusiast.",
+                "Data Science Student.",
                 2000,
                 "Competitive Programmer.",
                 2000,
@@ -65,16 +65,14 @@ export default function Hero() {
             />
           </motion.div>
 
+          {/* NEW SIMPLE & HUMAN TEXT */}
           <motion.p
             variants={child}
-            className="mt-6 max-w-lg text-gray-400 leading-relaxed text-base md:text-lg"
+            className="mt-6 max-w-xl text-gray-400 leading-relaxed text-base md:text-lg"
           >
-            I'm a Computer Science undergraduate specializing in Data Science at{" "}
-            <span className="text-accent">
-              Bangalore Institute of Technology
-            </span>
-            . I build scalable web applications, design data pipelines, and love
-            solving algorithmic challenges.
+            I'm a passionate programmer who loves turning ideas into real-world applications. 
+            Whether it's building smart AI tools, managing data flows, or cracking tough algorithmic 
+            puzzles, I just enjoy writing code and learning something new every day.
           </motion.p>
 
           <motion.div variants={child} className="flex flex-wrap gap-4 mt-8">
@@ -96,7 +94,7 @@ export default function Hero() {
           </motion.div>
         </motion.div>
 
-        {/* 3D element (desktop) */}
+        {/* Right Side: Interactive 3D Globe */}
         <motion.div
           className="flex-1 hidden lg:block"
           initial={{ opacity: 0, scale: 0.8 }}

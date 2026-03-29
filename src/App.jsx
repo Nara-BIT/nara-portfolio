@@ -53,7 +53,7 @@ export default function App() {
           <SocialSidebar />
 
           <main>
-            
+            <Hero />
             <About />
             <Skills />
             <Projects />
