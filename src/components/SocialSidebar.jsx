@@ -35,12 +35,12 @@ export default function SocialSidebar() {
         className="fixed bottom-0 right-6 xl:right-10 z-30 hidden md:flex flex-col items-center gap-5"
       >
         <a
-          href="mailto:narasinghjadhav303@gmail.com"
+          href="mailto:narasinghjadhav03@gmail.com"
           data-cursor="pointer"
           className="font-mono text-xs tracking-widest text-gray-400 hover:text-accent hover:-translate-y-1 transition-all duration-200"
           style={{ writingMode: "vertical-rl" }}
         >
-          narasinghjadhav303@gmail.com
+          narasinghjadhav03@gmail.com
         </a>
         <div className="w-px h-24 bg-gray-500" />
       </motion.div>
